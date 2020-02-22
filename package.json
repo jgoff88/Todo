@@ -1,8 +1,9 @@
 {
-  "name": "Todo",
+  "name": "todo",
   "version": "1.0.0",
   "description": "building todo app using mongodb, express, react and nodejs",
   "main": "index.js",
+  "proxy": "http://localhost:5000",
   "scripts": {
     "start": "node index.js",
     "start-watch": "nodemon index.js",
@@ -11,6 +12,7 @@
   "author": "Ojini Jude",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
     "body-parser": "^1.18.3",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
